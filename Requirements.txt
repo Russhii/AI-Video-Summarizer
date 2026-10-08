@@ -1,0 +1,28 @@
+# requirements.txt  (Python 3.11)
+
+# API
+fastapi
+uvicorn[standard]
+python-dotenv
+requests
+streamlit>=1.37
+
+# Audio
+yt-dlp
+pydub
+
+# LLM + STT (Groq)
+groq
+langchain-core
+langchain-groq
+
+# RAG
+chromadb
+langchain-chroma
+langchain-text-splitters
+langchain-community
+fastembed
+
+openai-whisper
+langchain-huggingface
+sentence-transformers
